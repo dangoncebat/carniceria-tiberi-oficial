@@ -1,0 +1,25 @@
+// Header de la página
+header {
+    display: flex;
+    background-color: $main-background;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-shadow: $box-shadow;
+    flex-direction: column;
+  
+    nav ul {
+      background-color: $main-background;
+      color: $text-color;
+      list-style: none;
+  
+      li {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  // Imagen
+  .img-2 {
+    border-radius: $img-border-radius;
+  }

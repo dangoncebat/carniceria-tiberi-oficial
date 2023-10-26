@@ -1,0 +1,120 @@
+@import "header";
+@import "index";
+
+/*Página de productos*/
+section h2 {
+  margin: 40px;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: $box-shadow;
+}
+
+.parrafo {
+  font-size: 50px;
+  text-align: center;
+  color: beige;
+  text-shadow: $box-shadow;
+}
+
+.inicio-productos {
+  text-align: center;
+  background-color: $main-background;
+  color: $text-color;
+}
+
+img {
+  width: 100%;
+  height: 20%;
+  object-fit: fill;
+}
+
+.flex-container {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+
+  img {
+    margin-top: 5px;
+  }
+
+  #nuestros-productos-dos {
+    color: $text-color;
+    text-shadow: $box-shadow;
+  }
+}
+
+// Página de ofertas
+.parrafo-ofertas {
+  text-align: center;
+  color: beige;
+  font-size: 50px;
+  text-shadow: $box-shadow;
+}
+
+.inicio-ofertas {
+  text-align: center;
+  color: $text-color;
+}
+
+.ofertas {
+  width: 100%;
+  height: 250px;
+  background-color: #393b4348;
+  padding: 150px;
+}
+
+.ofertas img {
+  width: 100%;
+  height: 800px;
+  box-shadow: 10px 10px 5px 0px rgba(96, 199, 204, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(96, 199, 204, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(96, 199, 204, 0.75);
+}
+
+#nuestras-ofertas {
+  color: $text-color;
+}
+
+.nuestras-ofertas-dos img {
+  width: 100%;
+  height: 800px;
+  box-shadow: 10px 10px 5px 0px rgba(96, 199, 204, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(96, 199, 204, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(96, 199, 204, 0.75);
+}
+
+// Página sobre nosotros
+.inicio-nosotros {
+  text-align: center;
+  background-color: $main-background;
+  color: $text-color;
+}
+
+#sobre-nosotros {
+  background-color: $main-background;
+  color: $text-color;
+}
+
+.parrafo-nosotros {
+  background-color: #a52a2a;
+  color: beige;
+}
+
+.color-p-b {
+  color: beige;
+}
+
+.style-h1 {
+  text-align: center;
+  color: $text-color;
+  text-shadow: $box-shadow;
+}
+
+// Página de contacto
+.container-form {
+  width: 100}
